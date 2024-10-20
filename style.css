@@ -121,12 +121,12 @@ body {
   span {
     font-size: 12px;
     font-weight: 300;
-    color: black;
     text-transform: initial;
   }
   
   a {
     text-decoration: none;
+    color: black;
     font-size: 24px;
   }
   

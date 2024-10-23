@@ -94,6 +94,10 @@ img {
     height: 850px;
 }
 
+.sec-container h1 {
+    font-size: 200px;
+}
+
 
 .sec-container p {
     color: rgb(48, 48, 48);
@@ -104,6 +108,7 @@ img {
 .footer {
     display: block;
     margin-top: auto;
+    width: 100%;
 }
 
 .container-footer {
@@ -134,4 +139,37 @@ img {
     border-radius: 50px;
     width: 50px;
     height: 50px;
+}
+
+@media (max-width:765px) {
+    .sec-container h1 {
+        font-size: 50px;
+    }
+    .sec-container p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:500px) {
+    html {
+        width: 100%;
+    }
+
+    img {
+        height: 250px;
+    }
+    header {
+        width: 100%;
+    }
+    footer {
+        width: 120%;
+    }
+
+}
+
+@media (max-width:415px) {
+    footer {
+        width: 140%;
+    }
+
 }

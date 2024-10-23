@@ -171,6 +171,7 @@ body {
 
   @media (max-width: 480px){
     .card-top {
+      overflow-y: scroll;
       width: 480px;
     }
   }

@@ -219,7 +219,6 @@ input:checked + label + span {
   @media (max-width: 500px){
     header {
       width: 150%;
-      height: 1500px;
     }
     .text-top {
       margin-left: 50%;
@@ -231,7 +230,6 @@ input:checked + label + span {
   @media (max-width: 380px){
     header {
       width: 200%;
-      height: 1500px;
     }
     .text-top {
       margin-left: 22rem;
@@ -244,14 +242,12 @@ input:checked + label + span {
   @media (max-width: 300px){
     header {
       width: 250%;
-      height: 1500px;
     }
   }
 
   @media (max-width: 235px){
     header {
       width: 300%;
-      height: 1500px;
     }
   }
 

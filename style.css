@@ -226,6 +226,9 @@ input:checked + label + span {
     .container {
       margin-left: 100px;
     }
+    .view-mod {
+      margin: -10px 0 80px 240px;
+    }
   }
   @media (max-width: 380px){
     header {
@@ -233,6 +236,9 @@ input:checked + label + span {
     }
     .text-top {
       margin-left: 22rem;
+    }
+    .view-mod {
+      margin: -10px 0 80px 240px;
     }
     .container {
       margin-left: 100px;
@@ -243,12 +249,17 @@ input:checked + label + span {
     header {
       width: 250%;
     }
+    .view-mod {
+      margin: -10px 0 80px 240px;
+    }
   }
 
   @media (max-width: 235px){
     header {
       width: 300%;
-
+    }
+    .view-mod {
+      margin: -10px 0 80px 240px;
     }
   }
 

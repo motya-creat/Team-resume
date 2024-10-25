@@ -248,7 +248,7 @@ input:checked + label + span {
   @media (max-width: 235px){
     header {
       width: 300%;
-      height: 1500px;
+
     }
   }
 

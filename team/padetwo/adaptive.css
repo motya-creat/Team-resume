@@ -25,24 +25,8 @@
     }
 }
 
-@media (max-width: 425px) {
-    .about h2, p {
-        position: relative;
-        left: 40px;
 
-        
-    }
-    .photo img {
-        position: relative;
-        top: 87px;
-    }
-
-    .main-text {
-        height: 80%;
-    }
-}
-
-@media (max-width: 380px) {
+@media (min-width: 360px) and (max-width: 470px) {
     .about h2, p {
         position: relative;
         left: 10px;
@@ -68,28 +52,29 @@
 
 }
 
-@media (max-width: 320px){
+@media (min-width: 320px) and (max-width: 370px){
     .main-text {
         max-height: 50%;
     }
     .about p {
-
-        font-size: 14px;
+        position: relative;
+        font-size: 12px;
+        
     }
 
     .about h2 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .about h2, p {
         position: relative;
-        left: 60px;
+        left: 100px;
 
     }
 
     .photo img {
         position: relative;
-        top: 67px;
-        width: 150px;
+        top: 2px;
+        width: 100px;
     }
 }

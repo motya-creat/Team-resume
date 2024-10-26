@@ -17,13 +17,49 @@
     .about h2, p {
         width: 230px;
     }
-    .photo {
-        position: relative;
-        top:149px;
-    }
+
     .photo img {
+        position: relative;
+        top: 87px;
         width: 200px;
     }
+}
+
+@media (max-width: 425px) {
+    .about h2, p {
+        position: relative;
+        left: 40px;
+
+        
+    }
+    .photo img {
+        position: relative;
+        top: 87px;
+    }
+
+    .main-text {
+        height: 80%;
+    }
+}
+
+@media (max-width: 375px) {
+    .about h2, p {
+        position: relative;
+        left: 10px;
+        width: 150px;
+    }
+
+
+    .photo img {
+        position: relative;
+        top: 7.75rem;
+        width: 200px;
+    }
+    .main-text {
+        position: relative;
+        height: 100%;
+    }
+
 }
 
 @media (max-width: 320px){
@@ -31,18 +67,23 @@
         max-height: 50%;
     }
     .about p {
-        position: relative;
-        left: 65px;
-        width: 145px;
+
+        font-size: 14px;
     }
+
+    .about h2 {
+        font-size: 20px;
+    }
+
     .about h2, p {
-        width: 82px;
-    }
-    .photo {
         position: relative;
-        top:149px;
+        left: 60px;
+
     }
+
     .photo img {
+        position: relative;
+        top: 67px;
         width: 150px;
     }
 }

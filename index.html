@@ -10,6 +10,10 @@
 </head>
 <body>
 
+  <div class="background">
+    <img src='https://i.postimg.cc/Pq0P7b8D/Picsart-24-10-29-13-33-38-066.png' border='0'/>
+  </div>
+
   <div class="wrap">
     <header>
         <div class="menu">
@@ -19,20 +23,6 @@
         </div>
     </header>
   </div>
-
-  <script>
-    var colorArray = [  " #81D8D0", "#020202" ]; // массив с цветами
-    var i = 0; // итератор
-    
-    function changeColor(){
-        document.body.style.background = colorArray[i]; 
-        i++;
-        if( i > colorArray.length - 1){
-            i = 0;
-        }
-    }
-    
-    </script>
 
   <div class="card-top">
     <div class="text-top">
@@ -79,11 +69,16 @@
           </a>
       </div>
   </div>
-  </div>
+</div>
+  
+
     <div class="view-mod">
-      <input type="checkbox" class="dark-mod-toggle" id="dark-mod-toggle" onclick="javascript:changeColor();">
-      <label for="dark-mod-toggle"></label>
-    <span>Цвет</span>
-  </div>
+        <input type="checkbox" class="dark-mod-toggle" id="dark-mod-toggle" onclick="javascript:changeColor();">
+        <label for="dark-mod-toggle"></label>
+        <span>Цвет</span>
+    </div>
+
+  <script src="scripts.js"></script>
+
 </body>
 </html>
